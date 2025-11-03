@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorando el Espacio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0b0d17;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #151b2f;
+      border-radius: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #1d2540;
+    }
+    img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 8px;
+      margin: 10px;
+    }
 
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Explorando el Espacio</h1>
+    <nav>
+        <a href="https://eyes.nasa.gov/apps/solar-system/#/home" target="_blank">Sistema Solar interactivo NASA</a> 
+    
+    </nav>
+  </header>
+
+  <main>
+    
+      <h2>Bienvenido</h2>
+      <p>El universo es un lugar inmenso lleno de <i>maravillas</i>. Desde los planetas de nuestro sistema solar hasta las galaxias más lejanas, la exploración espacial nos ayuda a entender mejor nuestro lugar en el <i><b>cosmos</b></i>.</p>
+    
+
+    
+      <h2>Tabla de Planetas</h2>
+      <table>
+        <tr>
+          <th>Planeta</th>
+          <th>Diámetro (km)</th>
+          <th>Distancia al Sol (millones km)</th>
+        </tr>
+        <tr>
+          <td>Mercurio</td>
+          <td>4,880</td>
+          <td>57.9</td>
+        </tr>
+        <tr>
+          <td>Venus</td>
+          <td>12,104</td>
+          <td>108.2</td>
+        </tr>
+        <tr>
+          <td>Tierra</td>
+          <td>12,742</td>
+          <td>149.6</td>
+        </tr>
+        <tr>
+          <td>Marte</td>
+          <td>6,779</td>
+          <td>227.9</td>
+        </tr>
+      </table>
+  
+
+    
+      <h2>Imágenes del Espacio</h2>
+      <div class="imagenes">
+        <img src="https://science.nasa.gov/wp-content/uploads/2023/04/hubble-nebula-orion-nebula-display-jpg.webp" alt="Nebulosa" wigth = 100>
+        <img src="https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/2023/09/p/PIA13994.jpg?w=3000&h=2000&fit=clip&crop=faces%2Cfocalpoint" alt="Planeta" wigth = 100>
+        <img src="https://images-assets.nasa.gov/image/iss056e201248/iss056e201248~large.jpg?w=768&h=512&fit=crop&crop=faces%2Cfocalpoint" alt="Estación Espacial Internacional" wigth = 100>
+        <img src="https://www.nasa.gov/wp-content/uploads/2025/05/54491190142-00f171b6dd-o.jpg?resize=1200,800" alt="Estación Espacial Internacional" wigth = 100>
+      </div>
+   
+      <h2>Ciencia de la NASA <u>Para todos</u></h2>
+      <p>La <i>ciencia</i> es la clave para descubrir los secretos del universo: uniendo a la humanidad con cada descubrimiento, expandiendo nuestro 
+        conocimiento y despertando nuestra <b>imaginación</b>. Al navegar por las arenas del tiempo y el espacio, la ciencia da contexto y <u>significado</u> 
+        a mediciones grandes y pequeñas. <b><i>¿Sabías que existen tantas estrellas en el universo como hay granos de arena en la Tierra?</i></b> La nueva era 
+        de los descubrimientos científicos de la NASA acaba de comenzar, <b><u>¡y tú eres parte de ella!</u></b></p>
+   
+  </main>
+
+  <footer>
+    <p> Enlace oficial: <a href="https://www.nasa.gov" target="_blank" style="color: lightblue;">NASA</a></p>
+  </footer>
+</body>
+</html>
